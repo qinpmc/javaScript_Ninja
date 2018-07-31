@@ -1,1 +1,1 @@
-# javaScript_Ninja
+# javaScript_Ninja Learning
