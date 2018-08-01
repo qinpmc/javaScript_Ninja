@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #results li.pass{
+            color:green;
+        }
+        #results li.fail{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<ul id="results"></ul>
+<script type="text/javascript">
+    function assert(value,desc){
+        var li = document.createElement("li");
+        li.className = value?"pass":"fail";
+        li.appendChild(document.createTextNode(desc));
+        document.getElementById("results").appendChild(li);
+    }
+    var canFly = function(){return true;}
+
+    window.onload = function () {
+        assert(canFly.name ==="","canFly has no name");
+        assert(canFly.name ==="canFly","canFly has name  canFly");
+    }
+
+</script>
+</body>
+</html>
