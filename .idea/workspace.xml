@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd75cc77-745c-4b1c-afac-154ba8d7c250" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/gis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch3function/1function1_p38.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch3function/2递归_p60.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch3function/2函数调用_p55.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch3function/4函数存储-p68.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch3function/5缓存记忆_p70.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch3function/README.md" afterPath="$PROJECT_DIR$/ch3function/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/2递归_p60.html" afterPath="$PROJECT_DIR$/ch3function/3递归_p60.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +24,28 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch3function/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="232">
+              <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4函数存储-p68.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch3function/4函数存储-p68.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="39" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5缓存记忆_p70.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch3function/5缓存记忆_p70.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -53,7 +73,11 @@
         <option value="$PROJECT_DIR$/ch3function/递归.html" />
         <option value="$PROJECT_DIR$/ch3function/2递归_p60.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ch3function/2函数调用.html" />
+        <option value="$PROJECT_DIR$/ch3function/2函数调用_p55.html" />
         <option value="$PROJECT_DIR$/ch3function/README.md" />
+        <option value="$PROJECT_DIR$/ch3function/4函数存储-p68.html" />
+        <option value="$PROJECT_DIR$/ch3function/5缓存记忆_p70.html" />
       </list>
     </option>
   </component>
@@ -64,8 +88,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="257" />
-    <option name="y" value="518" />
+    <option name="x" value="179" />
+    <option name="y" value="377" />
     <option name="width" value="1567" />
     <option name="height" value="658" />
   </component>
@@ -144,15 +168,15 @@
       <updated>1533024505815</updated>
       <workItem from="1533024507199" duration="9929000" />
       <workItem from="1533094592971" duration="750000" />
-      <workItem from="1533095362442" duration="1682000" />
+      <workItem from="1533095362442" duration="5150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12361000" />
+    <option name="totallyTimeSpent" value="15829000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="518" width="1567" height="658" extended-state="0" />
+    <frame x="179" y="377" width="1567" height="658" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -241,17 +265,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch3function/function1_p38.html" />
-    <entry file="file://$PROJECT_DIR$/ch3function/1function1_p38.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch3function/2递归_p60.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -263,10 +281,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch3function/3递归_p60.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-806">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3function/2函数调用_p55.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3function/1function1_p38.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3function/4函数存储-p68.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3function/5缓存记忆_p70.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch3function/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="232">
+          <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding />
         </state>
       </provider>

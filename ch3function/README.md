@@ -35,6 +35,80 @@
 // aaabbb
 ```
 
+## 函数调用传递2个隐式参数 arguments 和 this
+- arguments为类数组对象
+- this 为调用上下文
+
+## 函数调用
+1. 作为函数进行调用
+2. 作为方法调用，在对象上进行调用
+3. 作为构造器调用，创建一个新对象
+4. 利用apply或call调用
+
+## 函数递归
+1. 注意递归中引用丢失的问题
+
+```
+var ninja = {
+    chirp: function(n){
+        return  n>1? ninja.chirp(n-1)+"-chirp":"chirp"; //此处固定写为ninja.chirp,容易丢失！
+    }
+}
+
+var samurai = {chirp:ninja.chirp};
+ninja = {};
+samurai.chirp(3)  ;// 错误！
+
+```
+
+ > 优化方案1
+
+
+```
+var ninja = {
+    chirp: function(n){
+        return  n>1? this.chirp(n-1)+"-chirp":"chirp"; //此处固定写为ninja.chirp,容易丢失！
+    }
+}
+
+var samurai = {chirp:ninja.chirp};
+ninja = {};
+samurai.chirp(3)  ;// 正确！
+
+// 隐患，对象属性名必须为chirp
+
+var samurai2 = {chirp2:ninja.chirp};
+ninja = {};
+samurai2.chirp2(3)  ;// 错误！
+
+```
+
+> 最终方案（给匿名函数取名）
+- 函数的名称仅在函数内部可见
+
+```
+var ninja = {
+    chirp: function signal(n){   //给函数命名
+        return  n>1? signal(n-1)+"-chirp":"chirp";
+    }
+}
+
+//过时的方案
+
+var ninja = {
+    chirp: function signal(n){
+        return  n>1? arguments.callee(n-1)+"-chirp":"chirp"; //此处固定写为ninja.chirp,容易丢失！
+    }
+}
+
+```
+
+
+
+
+
+
+
 
 
 
