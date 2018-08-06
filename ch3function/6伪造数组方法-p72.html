@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #results li.pass {
+            color: green;
+        }
+
+        #results li.fail {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<ul id="results"></ul>
+<input id="first">
+<input id="second">
+<script type="text/javascript">
+    function assert(value, desc) {
+        var li = document.createElement("li");
+        li.className = value ? "pass" : "fail";
+        li.appendChild(document.createTextNode(desc));
+        document.getElementById("results").appendChild(li);
+    }
+
+    var elems = {
+        length: 0,
+        add: function (elem) {
+            Array.prototype.push.call(this, elem);
+        },
+        gather: function (id) {
+            this.add(document.getElementById(id));
+        }
+    }
+    elems.gather("first");
+    elems.gather("second");
+    console.log(elems);
+
+    var obj = {a:1,b:2};
+    Array.prototype.push.call(obj,"zero");
+
+    var obj2 = {a:1,b:2,length:4};
+    Array.prototype.push.call(obj2,"zero");
+
+</script>
+</body>
+</html>
