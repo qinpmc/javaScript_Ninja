@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <style type="text/css">
+        #results li.pass {
+            color: green;
+        }
+
+        #results li.fail {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<ul id="results"></ul>
+<div id="testSubject"></div>
+<button id="testButton">Go!</button>
+<script>
+    function assert(value, desc) {
+        var li = document.createElement("li");
+        li.className = value ? "pass" : "fail";
+        li.appendChild(document.createTextNode(desc));
+        document.getElementById("results").appendChild(li);
+    }
+    $("#testButton").on("click",function () {
+        var elem$ = $("#testSubject");
+        elem$.html("Loading.....");
+        $.ajax({
+            url:"test.html",
+            success:function (html) {
+                assert(elem$,"We can see elem$,via the closure for this callback");
+                elem$.html(html);
+            }
+        })
+    })
+
+
+</script>
+</body>
+</html>
