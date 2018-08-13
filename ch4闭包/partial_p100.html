@@ -6,16 +6,10 @@
 </head>
 <body>
 <script>
-    Function.prototype.partial = function () {
+    Function.prototype.curry = function () {
         var fn = this,args = Array.prototype.slice.call(arguments);
         return function () {
-            var arg = 0;
-            for (var i=0;i<args.length && arg< arguments.length;i++){
-                if(args[i] === undefined){
-                    args[i] = arguments[arg++];
-                }
-            }
-            return fn.apply(this,args);
+            return fn.apply(this,args.concat(Array.prototype.slice.call(arguments)));
         }
     };
     function test1(a,b,c){
@@ -23,7 +17,7 @@
         return sum * c+ 999;
     }
 
-    var curry1 = test1.partial(undefined,10,undefined);
+    var curry1 = test1.curry(10);
     console.log(curry1(10,5)); //1099
 
 
