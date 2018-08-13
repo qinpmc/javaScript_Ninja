@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    Function.prototype.curry = function () {
+        var fn = this,args = Array.prototype.slice.call(arguments);
+        return function () {
+            return fn.apply(this,args.concat(Array.prototype.slice.call(arguments)));
+        }
+    };
+    function test1(a,b,c){
+        var sum = a+b;
+        return sum * c+ 999;
+    }
+
+    var curry1 = test1.curry(10);
+    console.log(curry1(10,5)); //1099
+
+
+</script>
+</body>
+</html>
