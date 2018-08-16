@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    function myArray() {}
+    myArray.prototype.length = 0;
+    (function () {
+        var methods = ["push","pop","shift","unshift","slice","splice","join"];
+        for(var i=0;i<methods.length;i++){
+            myArray.prototype[methods[i]] = (function(name){
+                return function () {
+                    Array.prototype[name].apply(this,arguments)
+                }
+            })(methods[i]);
+        }
+    })();
+    var my1 = new myArray();
+    my1.push(1);
+    my1.push(2);
+    my1.push(3);
+
+
+</script>
+</body>
+</html>

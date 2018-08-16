@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    function User(first,last) {
+        if(!(this instanceof arguments.callee)){
+            return new User(first,last);
+        }
+        this.name = first+" "+last;
+    }
+    var user = User("fff","lll");
+    console.log(user);
+
+</script>
+</body>
+</html>

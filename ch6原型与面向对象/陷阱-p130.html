@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #results li.pass{
+            color:green;
+        }
+        #results li.fail{
+            color:red;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+<ul id="results"></ul>
+<script type="text/javascript">
+    function assert(value,desc){
+        var li = document.createElement("li");
+        li.className = value?"pass":"fail";
+        li.appendChild(document.createTextNode(desc));
+        document.getElementById("results").appendChild(li);
+    };
+    Object.prototype.keys = function () {
+        var keys = [];
+        for(var p in this){
+            keys.push(p);
+        }
+        return keys;
+    }
+    var obj = {a:1,b:2,c:3};
+    assert(obj.keys().length ==3,"there are 3 properties in this object");
+    console.log(obj.keys()); //["a", "b", "c", "keys"]
+
+</script>
+
+</body>
+</html>
