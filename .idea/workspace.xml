@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd75cc77-745c-4b1c-afac-154ba8d7c250" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch6原型与面向对象/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch6原型与面向对象/修复创建实例-p137.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch6原型与面向对象/子类化原生对象-p133.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch6原型与面向对象/扩展数字-p132.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch6原型与面向对象/陷阱-p130.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="a196b326-a84a-4ccc-91f1-d0d941adfc9d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4闭包/函数包装_p105.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5闭包/memoized.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/1function1_p38.html" afterPath="$PROJECT_DIR$/ch3-4function/1function1_p38.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/2函数调用_p55.html" afterPath="$PROJECT_DIR$/ch3-4function/2函数调用_p55.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/3递归_p60.html" afterPath="$PROJECT_DIR$/ch3-4function/3递归_p60.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/4函数存储-p68.html" afterPath="$PROJECT_DIR$/ch3-4function/4函数存储-p68.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/5缓存记忆_p70.html" afterPath="$PROJECT_DIR$/ch3-4function/5缓存记忆_p70.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/6伪造数组方法-p72.html" afterPath="$PROJECT_DIR$/ch3-4function/6伪造数组方法-p72.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/7_arguments-p77.html" afterPath="$PROJECT_DIR$/ch3-4function/7_arguments-p77.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/README.md" afterPath="$PROJECT_DIR$/ch3-4function/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch3function/函数重载-p80.html" afterPath="$PROJECT_DIR$/ch3-4function/函数重载-p80.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/README.md" afterPath="$PROJECT_DIR$/ch5闭包/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/bind--p98.html" afterPath="$PROJECT_DIR$/ch5闭包/bind--p98.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/curry_p100.html" afterPath="$PROJECT_DIR$/ch5闭包/curry_p100.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/memoized.html" afterPath="$PROJECT_DIR$/ch5闭包/memoized.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/memoized_p103.html" afterPath="$PROJECT_DIR$/ch5闭包/memoized_p103.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/partial_p100.html" afterPath="$PROJECT_DIR$/ch5闭包/partial_p100.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/test.html" afterPath="$PROJECT_DIR$/ch5闭包/test.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/闭包1_p88.html" afterPath="$PROJECT_DIR$/ch5闭包/闭包1_p88.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch4闭包/闭包2_p92.html" afterPath="$PROJECT_DIR$/ch5闭包/闭包2_p92.html" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="陷阱-p130.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="陷阱-p130.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch6原型与面向对象/陷阱-p130.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
+            <state relative-caret-position="149">
+              <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="memoized_p103.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch5闭包/memoized_p103.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="修复创建实例-p137.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="修复创建实例-p137.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch6原型与面向对象/修复创建实例-p137.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
@@ -82,60 +66,14 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ch1-2/1assert_p21.html" />
-        <option value="$PROJECT_DIR$/ch1-2/2assert_p22.html" />
-        <option value="$PROJECT_DIR$/ch1-2/3assert_p23.html" />
-        <option value="$PROJECT_DIR$/ch3function/function1.html" />
-        <option value="$PROJECT_DIR$/ch3function/递归.html" />
-        <option value="$PROJECT_DIR$/ch3function/2递归_p60.html" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/ch3function/2函数调用.html" />
-        <option value="$PROJECT_DIR$/ch3function/2函数调用_p55.html" />
-        <option value="$PROJECT_DIR$/ch3function/README.md" />
-        <option value="$PROJECT_DIR$/ch3function/4函数存储-p68.html" />
-        <option value="$PROJECT_DIR$/ch3function/5缓存记忆_p70.html" />
-        <option value="$PROJECT_DIR$/ch3function/6伪造数组 方法.html" />
-        <option value="$PROJECT_DIR$/ch3function/6伪造数组方法.html" />
-        <option value="$PROJECT_DIR$/ch3function/7_arguments-p77.html" />
-        <option value="$PROJECT_DIR$/ch4闭包/闭包1_p88.html" />
-        <option value="$PROJECT_DIR$/ch4闭包/README.md" />
-        <option value="$PROJECT_DIR$/ch4闭包/test.html" />
-        <option value="$PROJECT_DIR$/ch4闭包/闭包2_p92.html" />
-        <option value="$PROJECT_DIR$/ch3function/函数重载-p80.html" />
-        <option value="$PROJECT_DIR$/ch4闭包/bind--p98.html" />
-        <option value="$PROJECT_DIR$/ch4闭包/curry_p100.html" />
-        <option value="$PROJECT_DIR$/ch4闭包/memoized.html" />
-        <option value="$PROJECT_DIR$/ch6原型与面向对象/陷阱-p130.html" />
-        <option value="$PROJECT_DIR$/ch6原型与面向对象/扩展数字-p132.html" />
-        <option value="$PROJECT_DIR$/ch6原型与面向对象/子类化原生对象-p133.html" />
-        <option value="$PROJECT_DIR$/ch6原型与面向对象/修复创建实例-p137.html" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
-    <option name="y" value="504" />
-    <option name="width" value="1936" />
-    <option name="height" value="668" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,6 +104,26 @@
             <path>
               <item name="js_Ninja" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_Ninja" type="462c0819:PsiDirectoryNode" />
+              <item name="ch1-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_Ninja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_Ninja" type="462c0819:PsiDirectoryNode" />
+              <item name="ch3-4function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_Ninja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_Ninja" type="462c0819:PsiDirectoryNode" />
+              <item name="ch4闭包" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_Ninja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_Ninja" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5闭包" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js_Ninja" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js_Ninja" type="462c0819:PsiDirectoryNode" />
               <item name="ch6原型与面向对象" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -176,12 +134,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="1&#9;ACTION&#9;EditorPopupMenu1" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -218,17 +171,18 @@
       <workItem from="1533526023057" duration="7657000" />
       <workItem from="1533644607075" duration="607000" />
       <workItem from="1534140093982" duration="3612000" />
-      <workItem from="1534400650235" duration="3643000" />
+      <workItem from="1534400650235" duration="3856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33202000" />
+    <option name="totallyTimeSpent" value="33415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="504" width="1936" height="668" extended-state="0" />
+    <frame x="100" y="320" width="1936" height="668" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20177267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20177267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -523,14 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch5闭包/memoized.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch5闭包/curry_p100.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -543,14 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="22" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch6原型与面向对象/陷阱-p130.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -575,6 +513,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5闭包/memoized_p103.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5闭包/memoized.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6原型与面向对象/陷阱-p130.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding />
         </state>
       </provider>

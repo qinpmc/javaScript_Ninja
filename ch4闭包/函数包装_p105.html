@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function wrap(object,method,wrapper){
+        var fn = object[method];
+        return object[method] = function(){
+            return wrapper.apply(this,[fn.bind(this)].concat(Array.prototype.slice.call(arguments)));
+        };
+    }
+    var obj = {
+        show :function (){
+            console.log(this);
+            console.log(arguments);
+        }
+    };
+    if(true){
+        var res1 = wrap(obj,"show",function(){
+            console.dir(arguments);
+            console.log("**********");
+            arguments[0]([].slice.call(arguments,1));
+        })
+    };
+    res1("a","z");
+
+</script>
+</body>
+</html>
