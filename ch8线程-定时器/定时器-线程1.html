@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function delay(seconds){
+            var start = new Date().getTime();
+            while (true){
+                var end = new Date().getTime();
+                var time = (end - start)/1000;
+                if(time>=seconds){
+                    console.log("delay "+seconds);
+                    break;
+                }
+            }
+        }
+
+        setTimeout(function () {
+            delay(0.5);
+            console.log("setTimeout1111---");
+
+        },10)
+        setInterval(function () {
+            console.log("setInterval---");
+        },10)
+
+        delay(2);
+    </script>
+</body>
+</html>
