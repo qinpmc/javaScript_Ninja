@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var asynTest = (function () {
+        var asynTest = {};
+        var queue=[],paused =false;
+        asynTest.test = function (fn) {
+            queue.push(fn);
+            runTest();
+        };
+        asynTest.pause = function () {
+            paused = true;
+        };
+        asynTest.resume = function () {
+            paused = false;
+            setTimeout(runTest,1);
+        };
+        function runTest() {
+            if(!paused && queue.length){
+                queue.shift()();
+                if(!paused){
+                    asynTest.resume();
+                }
+            }
+        };
+        return asynTest;
+    })();
+    asynTest.test(function () {
+        console.log("this is first test");
+    });
+
+    asynTest.test(function () {
+        console.log("this is second test");
+    });
+    console.log("ccccccccccccc");
+    (function () {
+        console.log(this); //window;
+    })()
+
+</script>
+</body>
+</html>
