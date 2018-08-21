@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var ninjia = "5";
+    (function () {
+        eval("var ninjia = 99");
+        console.log("IIFE : "+ ninjia) ; //  IIFE : 99
+    })();
+
+    console.log(ninjia);  //5
+
+    var tuzi = "111";
+    (function () {
+        eval("tuzi = -222");
+        console.log("IIFE : "+ tuzi) ; //  IIFE : -222
+    })();
+
+    console.log(tuzi);  //-222
+</script>
+</body>
+</html>

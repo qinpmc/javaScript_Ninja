@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    <script type="x/load">
+        console.log("x/load : "+"**************");
+    </script>-->
+    <script type="text/javascript">
+        window.onload = function(){
+            function globalEval(content) {
+                content = content.replace(/^\s|\s*$/g,"");
+                var head = document.getElementsByTagName("head")[0];
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.text = content;
+                head.appendChild(script);
+                head.removeChild(script);
+            }
+
+            var scripts = document.getElementsByTagName("script");
+            for(var i=0;i<scripts.length;i++){
+                if(scripts[i].type =="x/load"){
+                    globalEval(scripts[i].innerHTML);
+                }
+            }
+        }
+
+    </script>
+    <script type="x/load">
+        console.log("x/load : "+"**************");
+    </script>
+</body>
+</html>
