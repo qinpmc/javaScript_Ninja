@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a196b326-a84a-4ccc-91f1-d0d941adfc9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9运行时代码求值/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9运行时代码求值/eval1-p188.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9运行时代码求值/测试多个scripts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch9运行时代码求值/面向切面编程-p202.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch10With语句/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,31 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/README.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch10With语句/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="面向切面编程-p202.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/面向切面编程-p202.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-108">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eval1-p188.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/eval1-p188.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="162">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -78,6 +55,7 @@
         <option value="$PROJECT_DIR$/ch9运行时代码求值/README.md" />
         <option value="$PROJECT_DIR$/ch9运行时代码求值/测试多个scripts.html" />
         <option value="$PROJECT_DIR$/ch9运行时代码求值/面向切面编程-p202.html" />
+        <option value="$PROJECT_DIR$/ch10With语句/README.md" />
       </list>
     </option>
   </component>
@@ -88,10 +66,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="452" />
+    <option name="x" value="378" />
+    <option name="y" value="643" />
     <option name="width" value="1937" />
-    <option name="height" value="649" />
+    <option name="height" value="594" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -121,7 +99,7 @@
             <path>
               <item name="js_Ninja" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_Ninja" type="462c0819:PsiDirectoryNode" />
-              <item name="ch9运行时代码求值" type="462c0819:PsiDirectoryNode" />
+              <item name="ch10With语句" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,11 +117,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\notes\js\js_Ninja\ch10With语句" />
       <recent name="F:\notes\js\js_Ninja\ch9运行时代码求值" />
       <recent name="F:\notes\js\js_Ninja\ch8线程-定时器" />
       <recent name="F:\notes\js\js_Ninja\ch6原型与面向对象" />
       <recent name="F:\notes\js\js_Ninja\ch4闭包" />
-      <recent name="F:\notes\js\js_Ninja\ch3function" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\notes\js\js_Ninja\ch5闭包" />
@@ -180,15 +158,15 @@
       <workItem from="1534400650235" duration="6448000" />
       <workItem from="1534471381716" duration="11000" />
       <workItem from="1534474425432" duration="9488000" />
-      <workItem from="1534747952663" duration="6354000" />
+      <workItem from="1534747952663" duration="7495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51860000" />
+    <option name="totallyTimeSpent" value="53001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="452" width="1937" height="649" extended-state="0" />
+    <frame x="378" y="643" width="1937" height="594" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20166753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -221,13 +199,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch3-4function/函数重载-p80.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch5闭包/bind--p98.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -454,6 +425,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -526,22 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/eval1-p188.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/测试多个scripts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -550,10 +506,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/面向切面编程-p202.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
+        <state relative-caret-position="54">
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9运行时代码求值/eval1-p188.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch10With语句/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
