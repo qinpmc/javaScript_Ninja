@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="./gsafety.jpg" alt="">
+<script type="text/javascript">
+    var img = document.getElementsByTagName("img")[0];
+    var newSrc= "./geoserver.png";
+    img.src = newSrc;
+    console.log(img.src === newSrc);  //false
+    console.log(img.getAttribute("src") === newSrc); //true
+    console.log(img.getAttribute("src") === "./gsafety.jpg");  //false
+
+    // img.src = "http://localhost:63342/javaScript_Ninja/ch12%E7%89%B9%E6%80%A7%E5%B1%9E%E6%80%A7%E5%92%8C%E6%A0%B7%E5%BC%8F/geoserver.png"
+    // img.getAttribute("src") === "./geoserver.png"
+</script>
+</body>
+</html>
