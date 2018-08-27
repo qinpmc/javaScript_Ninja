@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <title>Javascript</title>
+    <style>
+        body{margin:0;padding:0;background:#ccc;font-size:12px;overflow:auto;border: 10px solid grey}
+        .main{width: 500px;height: 330px;position: relative;margin: 250px 250px ;background-color: #eee;}
+        .box{position: relative;width: 220px;height: 180px;background-color: orange;top: 80px;left: 80px;}
+    </style>
+</head>
+
+<body style="height:1600px;">
+<div class="main">
+    <div class="box" id="box"></div>
+</div>
+
+<script>
+    var oBox = document.getElementById('box');
+
+    window.onload = function(){
+
+        oBox.onmousedown = function(ev){
+            ev = ev || window.event;
+
+            console.log("offsetX: "+ev.offsetX, "offsetY: "+ev.offsetY);
+            console.log("clientX: "+ev.clientX, "clientY: "+ev.clientY);
+            console.log("pageX: "+ev.pageX, "pageY: "+ev.pageY);
+            console.log("screenX: "+ev.screenX, "screenY: "+ev.screenY);
+            //console.log(ev.layerX, ev.layerY);
+            console.log("x: "+ev.x, "y: "+ev.y); //The MouseEvent.x property is an alias for the MouseEvent.clientX property. ie11-与其他浏览器均不同
+        }
+    }
+
+</script>
+</body>
+</html>

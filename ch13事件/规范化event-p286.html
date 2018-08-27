@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function fixEvent(event){
+            function returnTrue(){return true;}
+            function returnFalse(){return false;}
+            if(!event || !event.stopPropagation){
+                var old = event|| window.event;
+                event = {};
+                for(var prop in old){
+                    event[prop] = old[prop];
+                }
+                if(!event.target){
+                    event.target = event.srcElement || document;
+                }
+                event.relatedTarget= event.fromElement === event.target? event.toElement:event.fromElement;
+                event.preventDefault = function(){
+                    event.returnValue = false;
+                    event.isDefaultPreventd = true;
+                };
+                event.isDefaultPrevented = returnFalse;
+                event.stopPropagation = function(){
+                    event.cancelBubble = true;
+                    event.isPropagationStopped = true;
+                };
+                event.isPropagationStopped = returnFalse;
+                event.isImmediatePropagationStopped = returnFalse;
+
+                if(event.clientX!=null){
+                    var doc = document.documentElement;
+                    var body = document.body;
+                    event.pageX = event.clientX + (doc&& doc.scrollLeft || body &&body.scrollLeft ||0);
+                    event.pageY = event.clientY + (doc&& doc.scrollTop || body &&body.scrollTop ||0);
+                };
+                event.which = event.charCode || event.keyCode;
+                if(event.button!=null){
+                    event.button = (event.button & 1?0:(event.button &4 ?1:(event.button & 2 ? 2:0)))
+                    // ie 左击 --1 中间单击 -4 右单击 --2
+                    // 标准 左击 --0 中间单击 -1 右单击 --2
+                }
+                return event;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a196b326-a84a-4ccc-91f1-d0d941adfc9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch12特性属性和样式/style特性-p257.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch12特性属性和样式/元素的尺寸-p264.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch12特性属性和样式/元素的尺寸2-p265.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch12特性属性和样式/样式在何处-p260.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch12特性属性和样式/正则-.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch13事件/event-size.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch13事件/规范化event-p286.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch13事件/鼠标事件坐标信息1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch12特性属性和样式/README.md" afterPath="$PROJECT_DIR$/ch12特性属性和样式/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,68 +30,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="style特性-p257.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch12特性属性和样式/style特性-p257.html">
+      <file leaf-file-name="鼠标事件坐标信息1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch13事件/鼠标事件坐标信息1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.088235">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="43" />
+            <state vertical-scroll-proportion="1.5">
+              <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch12特性属性和样式/README.md">
+      <file leaf-file-name="规范化event-p286.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch13事件/规范化event-p286.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.576923">
-              <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24623115">
+              <caret line="41" column="101" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="101" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="元素的尺寸-p264.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch12特性属性和样式/元素的尺寸-p264.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4117646">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="元素的尺寸2-p265.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch12特性属性和样式/元素的尺寸2-p265.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="15.176471">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="32" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="正则-.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch12特性属性和样式/正则-.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.764706">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="样式在何处-p260.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch12特性属性和样式/样式在何处-p260.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.82353">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -143,6 +96,8 @@
         <option value="$PROJECT_DIR$/ch12特性属性和样式/元素的尺寸-p264.html" />
         <option value="$PROJECT_DIR$/ch12特性属性和样式/元素的尺寸2-p265.html" />
         <option value="$PROJECT_DIR$/ch12特性属性和样式/README.md" />
+        <option value="$PROJECT_DIR$/ch13事件/鼠标事件坐标信息1.html" />
+        <option value="$PROJECT_DIR$/ch13事件/规范化event-p286.html" />
       </list>
     </option>
   </component>
@@ -152,10 +107,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="394" />
+    <option name="x" value="97" />
+    <option name="y" value="422" />
     <option name="width" value="1938" />
-    <option name="height" value="458" />
+    <option name="height" value="597" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -210,7 +165,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch12特性属性和样式" />
+              <option name="myItemId" value="ch13事件" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,8 +190,8 @@
       <recent name="F:\notes\js\js_Ninja\ch5闭包" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\notes\js\js_Ninja\ch12特性属性和样式" />
       <recent name="F:\notes\js\js_Ninja\ch13事件" />
+      <recent name="F:\notes\js\js_Ninja\ch12特性属性和样式" />
       <recent name="E:\qinpmc\note\javascript\javaScript_Ninja\ch12特性属性和样式" />
       <recent name="F:\notes\js\js_Ninja\ch13特性属性和样式" />
       <recent name="F:\notes\js\js_Ninja\ch10With语句" />
@@ -334,7 +289,7 @@
     <option name="totallyTimeSpent" value="59028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="394" width="1938" height="458" extended-state="0" />
+    <frame x="97" y="422" width="1938" height="597" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -375,27 +330,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch1-2/2assert_p22.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch1-2/1assert_p21.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch1-2/3assert_p23.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -648,20 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch13事件/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch13事件/事件绑定-p283.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch12特性属性和样式/性能-p251.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -741,8 +661,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch12特性属性和样式/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.576923">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.121212">
+          <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch13事件/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch13事件/事件绑定-p283.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.617647">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch13事件/event-size.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch13事件/鼠标事件坐标信息1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5">
+          <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch13事件/规范化event-p286.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24623115">
+          <caret line="41" column="101" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="101" />
           <folding />
         </state>
       </provider>
