@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div title="Ninja">哈哈</div>
+    <div title="Secrete">密码</div>
+    <script type="text/javascript">
+        (function(){
+            var cache = {},guidCounter =1;
+            expando = "data"+(new Date().getTime());
+            this.getData = function(ele){
+                var guid = ele[expando];
+                if(!guid){
+                    guid = ele[expando] = guidCounter++;
+                    cache[guid] = {};
+                }
+                return cache[guid];
+            };
+            this.removeData = function(ele){
+                var guid = ele[expando];
+                if(!guid) return;
+                delete cache[guid];
+                try{
+                    delete ele[expando];
+                }catch(e){
+                    if(ele.removeAttribute){
+                        ele.removeAttribute(expando);
+                    }
+                }
+            }
+        })();
+        var eles = document.getElementsByTagName("div");
+        for(var n=0;n<eles.length;n++){
+            getData(eles[n]).ninja = eles[n].title;
+        }
+    </script>
+</body>
+</html>

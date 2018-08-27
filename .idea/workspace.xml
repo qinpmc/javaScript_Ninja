@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a196b326-a84a-4ccc-91f1-d0d941adfc9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch13事件/event-size.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch13事件/规范化event-p286.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch13事件/鼠标事件坐标信息1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch13事件/中央对象保存DOM元素信息.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,23 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="鼠标事件坐标信息1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch13事件/鼠标事件坐标信息1.html">
+      <file leaf-file-name="中央对象保存DOM元素信息.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch13事件/中央对象保存DOM元素信息.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5">
-              <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="规范化event-p286.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch13事件/规范化event-p286.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24623115">
-              <caret line="41" column="101" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="101" />
+            <state vertical-scroll-proportion="0.70553595">
+              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -98,6 +84,7 @@
         <option value="$PROJECT_DIR$/ch12特性属性和样式/README.md" />
         <option value="$PROJECT_DIR$/ch13事件/鼠标事件坐标信息1.html" />
         <option value="$PROJECT_DIR$/ch13事件/规范化event-p286.html" />
+        <option value="$PROJECT_DIR$/ch13事件/中央对象保存DOM元素信息.html" />
       </list>
     </option>
   </component>
@@ -107,10 +94,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="97" />
-    <option name="y" value="422" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="597" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -289,7 +276,7 @@
     <option name="totallyTimeSpent" value="59028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="422" width="1938" height="597" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -330,13 +317,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch1-2/3assert_p23.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch3-4function/3递归_p60.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -696,9 +676,17 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch13事件/规范化event-p286.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24623115">
+          <caret line="41" column="101" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch13事件/鼠标事件坐标信息1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5">
+        <state vertical-scroll-proportion="-0.1281407">
           <caret line="6" column="100" selection-start-line="6" selection-start-column="100" selection-end-line="6" selection-end-column="100" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -706,10 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch13事件/规范化event-p286.html">
+    <entry file="file://$PROJECT_DIR$/ch13事件/中央对象保存DOM元素信息.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24623115">
-          <caret line="41" column="101" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.70553595">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
           <folding />
         </state>
       </provider>
