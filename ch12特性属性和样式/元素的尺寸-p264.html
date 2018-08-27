@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="div1">
+        对于offsetWidth和offsetHeight，都表示当前对象的宽度/高度。
+        offsetWidth与style.widtht的区别是：若对象的宽度设定值为百分百宽度，无论页面变大或变小，style.width都返回此百分比；
+        而offsetWidth则返回页面中对象的宽度值而不是百分比。
+    </div>
+    <div id="div2" style="height: 100px;display: none">
+        百分比。
+    </div>
+    <script type="text/javascript">
+        // height/width 不指定值的话，默认为auto；此时无法获取height/width
+        // 可以使用offsetHeight/offsetWidth 获取，但此值包含 border和padding
+        var div1 = document.getElementById("div1"),div2=document.getElementById("div2") ;
+        console.log(div1.style.height); // ""
+        console.log(div1.offsetHeight); // 43
+
+        // offsetHeight/offsetWidth 在display:none 时，取得的值为0；
+        console.log(div2.style.height); // 100px
+        console.log(div2.offsetHeight); // 0
+    </script>
+</body>
+</html>

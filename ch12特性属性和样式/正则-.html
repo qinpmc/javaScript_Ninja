@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str = "20180808";
+    var ary = ["零","一","二","三","四","五","六","七","八","九","十"];
+    str = str.replace(/\d/g,function(){
+        //console.log(arguments[0]);
+        return ary[arguments[0]];
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="div1">
+        对于offsetWidth和offsetHeight，都表示当前对象的宽度/高度。
+    </div>
+    <script type="text/javascript">
+        (function(){
+            var PROS = {
+                position:"absolute",
+                visibility:"hidden",
+                display:"block"
+            };
+            window.getDimensions = function(ele){
+                var pres = {};
+                for(var key in PROS){
+                    pres[key] = ele.style[key]; //备份原有样式
+                    ele.style[key] = PROS[key];
+                };
+                var result = {
+                    width:ele.offsetWidth,
+                    height:ele.offsetHeight
+                };
+                for(var key in pres){
+                    ele.style[key] = pres[key];
+                }
+                return result;
+            }
+        })();
+
+        var div1 = document.getElementById("div1");
+        var result = getDimensions(div1);
+        console.log(result); // {height:21  width: 465}
+    </script>
+</body>
+</html>

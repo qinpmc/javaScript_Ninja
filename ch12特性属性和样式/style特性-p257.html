@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div style="color: red"></div>
+    <script type="text/javascript">
+        var div = document.getElementsByTagName("div")[0];
+
+        //所有浏览器支持
+        console.log(div.style.color) // red
+
+        // 除ie7外，其余返回 color: red ，ie7- 返回 对象 [object Object]
+        console.log(div.getAttribute("style"));
+
+    </script>
+</body>
+</html>

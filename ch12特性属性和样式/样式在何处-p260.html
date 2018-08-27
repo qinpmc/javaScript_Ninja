@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            font-size: 1em;
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1" style="color: #000;background-color: aliceblue;float: left" title="Ninja"></div>
+    <script type="text/javascript">
+        window.onload = function(){
+            var div = document.getElementById("div1");
+            console.log(div.style.color); // rgb(0, 0, 0)
+            console.log(div.style.fontSize);  //""
+            console.log(div.style.borderWidth); //""
+            console.log("-----------");
+            div.style.borderWidth = "4px";
+            console.log(div.style.borderWidth); //4px
+
+            console.log(div.style.backgroundColor); //aliceblue
+            console.log(div.style["background-color"]); //aliceblue
+            console.log(div.style.float); //
+        }
+    </script>
+</body>
+</html>
