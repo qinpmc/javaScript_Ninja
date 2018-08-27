@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/" id="testForm">
+    <input type="text" id="id">
+    <input type="text" name="action">
+</form>
+<script type="text/javascript">
+    window.onload = function () {
+        var form = document.getElementById("testForm");
+        console.log(form.id ==="testForm")  //false   form.id 为 input#id
+        console.log(form.action ==="/");  //false  form.action 为 input
+        console.log(form.getAttribute("id"));  //testForm
+        console.log(form.getAttribute("action")); //   /
+
+        console.log(form.getAttributeNode("action").nodeValue); //      /
+
+    }
+</script>
+</body>
+</html>

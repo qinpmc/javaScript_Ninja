@@ -40,3 +40,39 @@ ECMAScript 规范中指出，某些关键词不可以作为属性名称，采用
  maxlength                 maxLength
  rowspan                   rowSpan
  colspan                   colSpan
+
+
+## 性能问题： 属性的获取和设置总比 getAttribute 和setAttribute 快
+
+## DOM 中的id/name 膨胀
+浏览器中会将表单input元素的id 、name特性作为 form 元素的属性值进行引用。
+
+```
+<form action="/" id="testForm">
+    <input type="text" id="id">
+    <input type="text" name="action">
+</form>
+<script type="text/javascript">
+    window.onload = function () {
+        var form = document.getElementById("testForm");
+        console.log(form.id ==="testForm")  //false   form.id 为 input#id
+        console.log(form.action ==="/");  //false  form.action 为 input
+        console.log(form.getAttribute("id"));  //testForm
+        console.log(form.getAttribute("action")); //   /
+
+        console.log(form.getAttributeNode("action").nodeValue); //      /
+    }
+</script>
+```
+
+## URL 规范化造成特性属性不一致
+> 访问URL属性时（如href/src/action），该URL会自动将原始值转换成完整规范的URL。
+
+
+
+
+
+
+
+
+
